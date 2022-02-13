@@ -1,0 +1,43 @@
+{
+  "@@last_modified": "2019-11-28T15:21:39.215230",
+  "txtTitleLogin": "ÜYE GİRİŞİ",
+  "@txtTitleLogin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtCbRememberMe": "Beni Hatırla",
+  "@txtCbRememberMe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtBtnLogin": "GİRİŞ YAPIN",
+  "@txtBtnLogin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtBtnLoginRegister": "ÜYE OLUN",
+  "@txtBtnLoginRegister": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtBtnLoginForgetPassword": "Şifremi Unuttum",
+  "@txtBtnLoginForgetPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtLblGsmNumber": "GSM Numarası",
+  "@txtLblGsmNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtLblPassword": "Şifre",
+  "@txtLblPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "txtHintEnter": "Giriniz",
+  "@txtHintEnter": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

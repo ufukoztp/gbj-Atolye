@@ -1,0 +1,30 @@
+
+import 'package:gbjatolye/features/domain/entities/product/options.dart';
+
+class SpectListDtos {
+
+  int id;
+  String name;
+  bool multiselect;
+  bool required;
+  List<Options> options;
+
+	SpectListDtos.fromJsonMap(Map<String, dynamic> map): 
+		id = map["id"],
+		name = map["name"],
+		multiselect = map["multiselect"],
+		required = map["required"],
+		options = List<Options>.from(map["options"].map((it) => Options.fromJsonMap(it)));
+
+	Map<String, dynamic> toJson() {
+		final Map<String, dynamic> data = new Map<String, dynamic>();
+		data['id'] = id;
+		data['name'] = name;
+		data['multiselect'] = multiselect;
+		data['required'] = required;
+		data['options'] = options != null ? 
+			this.options.map((v) => v.toJson()).toList()
+			: null;
+		return data;
+	}
+}
